@@ -1,0 +1,26 @@
+body, #root{
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  background-color: #00a6ff1d;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 10px;
+    margin-right: 50px;
+   
+
+}
+
+li{
+  margin: 10px;
+}
