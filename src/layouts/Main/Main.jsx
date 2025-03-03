@@ -1,4 +1,4 @@
-import  park  from '../../../assets/images/park.jpg'
+import  park  from './../../assets/images/park.jpg'
 
 export const Main =()=>{
     return(

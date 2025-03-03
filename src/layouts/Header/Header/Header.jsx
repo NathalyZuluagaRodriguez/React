@@ -1,13 +1,21 @@
-
 import React from "react"
-import { Navbar } from "../NavBar/NavBar"
 import './Header.css'
+import { NavBar } from "../../NavBar/NavBar"
+import { ItemNavBar } from "../../../components/ItemNavBar/ItemNavBar"
+
 export const Header = () =>{
     return (
         <>
-            <header className="header" >
-              <h1>REACT 2025</h1>
-              <Navbar/>
+            <header className="App-header" >
+              
+                <NavBar>
+                    <ul>
+                        <ItemNavBar contents='Inicio'/>
+                        <ItemNavBar contents='Clase 1'/>
+                        <ItemNavBar contents='clase 2'/>
+
+                    </ul>
+                </NavBar>
             </header>
             
         </>

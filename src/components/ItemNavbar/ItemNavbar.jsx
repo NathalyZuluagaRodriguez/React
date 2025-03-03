@@ -1,9 +1,9 @@
+import { NavLink } from "react-router-dom"
 
-
-export const ItemNavbar= ({contents})=>{
+export const ItemNavBar= ({styles, contents, route})=>{
     return (
          <li>
-            <a href="">{contents}</a>
+            <NavLink className={styles} to= {route}>{contents}</NavLink>
          </li>
             
     )
